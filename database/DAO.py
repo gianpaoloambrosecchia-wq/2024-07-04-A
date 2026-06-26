@@ -67,7 +67,7 @@ class DAO():
             cnx.close()
         return result
 
-
+#
     @staticmethod
     def getAllEdges(year, shape, idMap):
         cnx = DBConnect.get_connection()

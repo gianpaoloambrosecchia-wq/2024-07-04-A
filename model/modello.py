@@ -95,7 +95,7 @@ class Model:
         maxCC = max(nx.weakly_connected_components(self._graph), key=len)
         return numCC, maxCC
 
-
+#
     def getAllYears(self):
         return DAO.getAllYears()
 
